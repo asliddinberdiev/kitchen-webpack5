@@ -1,0 +1,61 @@
+@import "../abstracts/variables";
+
+.text {
+  &-primary {
+    color: $color-primary !important;
+  }
+
+  &-secondary {
+    color: $color-secondary !important;
+  }
+
+  &-red {
+    color: $color-red !important;
+  }
+
+  &-grey {
+    color: $color-grey !important;
+  }
+
+  &-white {
+    color: $color-white !important;
+  }
+
+  &-black {
+    color: $color-black !important;
+  }
+
+  &-tail {
+    color: $color-tail !important;
+  }
+}
+
+.bg {
+  &-primary {
+    background-color: $color-primary !important;
+  }
+
+  &-secondary {
+    background-color: $color-secondary !important;
+  }
+
+  &-red {
+    background-color: $color-red !important;
+  }
+
+  &-grey {
+    background-color: $color-grey !important;
+  }
+
+  &-white {
+    background-color: $color-white !important;
+  }
+
+  &-black {
+    background-color: $color-black !important;
+  }
+
+  &-tail {
+    background-color: $color-tail !important;
+  }
+}

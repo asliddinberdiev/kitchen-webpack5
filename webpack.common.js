@@ -67,6 +67,11 @@ module.exports = {
       filename: './pages/about.html',
       inject: 'body',
     }),
+    new HtmlWebpackPlugin({
+      template: './src/pages/confirm.html',
+      filename: './pages/confirm.html',
+      inject: 'body',
+    }),
   ],
   resolve: {
     alias: {

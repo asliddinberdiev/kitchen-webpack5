@@ -1,11 +1,12 @@
-@charset 'utf-8';
-
 // abstracts
 @import "abstracts/variables";
+@import "abstracts/space";
+@import "abstracts/colors";
 @import "abstracts/fonts";
 @import "abstracts/media-query";
 
 // base
+@import "base/typography";
 @import "base/reset";
 @import "base/base";
 
@@ -13,7 +14,8 @@
 @import "components/buttons";
 
 // layout
-@import "layouts/header";
+@import "layout/header";
+@import "layout/grid";
 
 // pages
 @import "pages/about";
