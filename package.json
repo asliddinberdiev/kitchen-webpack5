@@ -1,5 +1,5 @@
 {
-  "name": "kitchen",
+  "name": "webpack_5",
   "version": "1.0.0",
   "scripts": {
     "dev": "webpack serve --config webpack.dev.js --watch",
